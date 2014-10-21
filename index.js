@@ -2,7 +2,7 @@ var express = require('express'),
     request = require('request');
 var app = express();
 
-var key = '361ccdede647636c';
+var key = 'This Is Your Key';
 
 app.use(express.static(__dirname+'/public'));
 
