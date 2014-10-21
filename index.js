@@ -2,7 +2,7 @@ var express = require('express'),
     request = require('request');
 var app = express();
 
-var key = //ENTER YOUR WUNDERGROUND KEY HERE;
+var key = '361ccdede647636c';
 
 app.use(express.static(__dirname+'/public'));
 
