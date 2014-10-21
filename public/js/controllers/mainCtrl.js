@@ -49,5 +49,6 @@ app.controller("mainCtrl", function($scope, mainService){
                 break;
         }
     };
+    $scope.getWeather();
 
 });
