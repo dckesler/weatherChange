@@ -1,0 +1,16 @@
+{
+  "name": "WeatherShiz",
+  "version": "1.0.0",
+  "description": "Weather that shiz!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The Dream Team",
+  "license": "Eat you freaking license!",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.7",
+    "request": "^2.45.0"
+  }
+}

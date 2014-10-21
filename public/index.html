@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weatherShiz" ng-controller="mainCtrl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" ng-href="{{loadedStyle}}">
+
+</head>
+<body>
+<img ng-show="loadingWeather" src="files/spinner.gif">
+<button ng-click="getWeather()">Butt</button>
+<div class="tester">{{weather}}</div>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/mainCtrl.js"></script>
+    <script src="js/services/mainService.js"></script>
+    <script src="js/directives/weatherClass.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+.tester {
+    background: hsl(45, 85%, 60%);
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 0px -5px 60px hsl(50, 95%, 80%);
+}
