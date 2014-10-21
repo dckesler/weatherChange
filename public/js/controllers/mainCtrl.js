@@ -46,7 +46,6 @@ app.controller("mainCtrl", function($scope, mainService){
             case "tstorms":
                 theWeather = "thunderStorm";
                 $scope.loadedStyle = "../../styles/"+theWeather+".css";
-                break;
         }
     };
     $scope.getWeather();
